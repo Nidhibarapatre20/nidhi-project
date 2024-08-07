@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav1{
+    display: flex;
+    flex-direction: column;
+}
+
+.p-hero{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.title{
+    letter-spacing: 5px;
+    font-family: garamond;
+}
+.hero{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url("home-sm.jpg");
+    background-size: cover;
+    padding-left: 75px;
+}
+.box1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.images1{
+    height: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.home-t{
+    padding: 5px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.icon{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    color: rgb(37, 25, 25);
+    padding-bottom: 70px;
+}
+
+@media (min-width:680px){
+    *{
+        margin: 0;
+        padding: 10pxl;
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+    .p-hero{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .title{
+        letter-spacing: 5px;
+        font-family: garamond;
+    }
+    .images1{
+        height: 300px;
+        margin-bottom: 50px;
+        opacity: 1;
+    }
+    .hero{
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        
+        background: url("hero-lg.jpg");
+        background-size: cover;
+    }
+    .home-t{
+        padding: 10px;
+        margin-right: 21px;
+        font-size: 18px;
+        font-style: italic;
+    }
+    
+    .hero1{
+        background: url("hairbg.jpg");
+        background-size: cover;
+    }
+    .hero2{
+        background: url("bg9.jpg");
+        background-size: cover;
+    }
+    .hero4{
+        background: url("about1.jpg");
+        background-size: cover;
+    }
+    
+   
+    #trans .overlay{
+        top: 0;
+        left: 0;
+        position: relative;
+        overlay: cover;
+
+    }
+    .main-navbar{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    #nav1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .box1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 3;
+    }
+  
+    .bg-1{
+        height: 80%;
+        width: 100%;
+        background: url(hair.jpg);
+    }
+
+    .icon{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        
+        padding: 20px;
+    }
+    .email{
+        display: flex;
+        justify-content: center;
+        font-size: 19px;
+        color: rgb(37, 25, 25);
+    }
+
+    /* bridal */
+    .image2{
+        height: 320px;
+        padding: 10px;
+    }
+
+}
